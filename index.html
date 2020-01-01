@@ -5,31 +5,25 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <script src="https://code.jquery.com/jquery.js"></script>
-    <link rel="stylesheet" href="stylesheet.css" type="text/css">
+    <link rel="stylesheet" href="assets/css/style.css" type="text/css">
     <title>Final Fantasy Crystal Collector</title>
 </head>
 <body>
-    
 
-
-
-
-<h2 id="winNumber">Target: ---</h2>            <h2 id="currentNumber">Score: ---</h2>
-
-<h3>Instructions: Pick one of the four elemental crystals to obtain a random, preset number.<br>
+<!--logo goes here-->
+<div id="gameRows"><h2 id="target">Target: <span id="winningNumber"></span></h2>
+    <h2 id="score">Score: <span id="currentNumber">0</span></h2>
+<h3 id="instructions">Instructions: Pick one of the four elemental crystals to obtain a random, preset number.<br>
     Each crystal has a different value, and resets every time you play the game.<br>
     Your goal is to try to get your number to match the goal number above.<br>
-    If you manage to reach the goal number, you win!</h3>
+    If you manage to reach the goal number, you win!</h3></div>
 
-<img src="assets/images/Wind_Crystal.png">
-<img src="assets/images/Water_Crystal.png">
-<img src="assets/images/Earth_Crystal.png">
-<img src="assets/images/Fire_Crystal.png">
+<h3 id="crystalRows">
+    <div id="crystals"><img id="wind" src="assets/images/Wind_Crystal.png"><img id="water" src="assets/images/Water_Crystal.png"><img id="earth" src="assets/images/Earth_Crystal.png"><img id="fire" src="assets/images/Fire_Crystal.png"></div>
+</h3>
 
-<div id="crystalImage"><img src=></img></div>
-
+<div id="winsandlosses"><h4>Wins: <span id="wins">0</span></h4>
+<h4>Loses: <span id="loses">0</span></h4></div>
 <script src="assets/javascript/game.js"></script>
-
-    
 </body>
 </html>

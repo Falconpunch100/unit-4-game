@@ -1,0 +1,51 @@
+body{
+background-color: black;
+color: white;
+}
+
+#gameRows{
+width:100%;
+position:relative;
+text-align: center;
+padding: 50px;
+}
+
+#score{
+    float:right;
+    background-color: darkblue;
+    padding:15px;
+    border:5px;
+}
+
+#target{
+    float:left;
+    background-color: darkblue;
+    padding:15px;
+}
+
+#crystalRows{
+    width:100%;
+    text-align:center;
+    padding:50px;
+}
+
+#instructions{
+    background-color: dar;
+
+}
+
+#crystals{
+    background-color: darkblue;
+}
+
+#winsandlosses{
+    text-align:center;
+    padding:20px;
+    border:10px;
+    margin:1px, 100px, 1px, 100px;
+    background-color: darkblue;
+}
+
+*{
+box-sizing: border-box;
+}
